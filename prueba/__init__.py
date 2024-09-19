@@ -107,7 +107,7 @@ class Liga:
             print(f"{equipo.nombre} - Puntos: {equipo.puntos}, Goles a Favor: {equipo.goles_a_favor}, Goles en Contra: {equipo.goles_en_contra}")
 
         print("\nEquipos descendidos por promedio:")
-        equipos_descendidos = self.calcular_promedios_descenso()[:2]  # Descienden 2 equipos
+        equipos_descendidos = self.calcular_promedios_descenso()[:2]
         for equipo, promedio in equipos_descendidos:
             print(f"{equipo} - Promedio: {promedio:.2f}")
 
